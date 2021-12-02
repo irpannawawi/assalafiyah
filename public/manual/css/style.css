@@ -1,0 +1,23 @@
+#login-section{
+	background: #ffffff;
+	padding: 75px;
+	min-height: 600px;
+}
+#loginLogoSekolah{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-control{
+	border-radius: 10px;
+	border-color: #32ed80;
+}
+
+.form{
+	margin: 0px auto;
+
+}
+
+
+
