@@ -11,7 +11,7 @@
                         <div class="col-md-8">
                             <div class="page-header-title">
                                 <h5 class="m-b-10">Dashboard</h5>
-                                <p class="m-b-0">Welcome to Material Able</p>
+                                <p class="m-b-0">Welcome to Sistem Informasi Sekolah SMK Assalafiyah Sleman</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -19,7 +19,7 @@
                                 <li class="breadcrumb-item">
                                     <a href="/"> <i class="fa fa-home"></i> </a>
                                 </li>
-                                <li class="breadcrumb-item"><a href="#!">Dashboard</a>
+                                <li class="breadcrumb-item"><a href="/">Dashboard</a>
                                 </li>
                             </ul>
                         </div>
@@ -35,189 +35,62 @@
                         <div class="page-body">
                             <div class="row">
                                 <!-- Material statustic card start -->
-                                <div class="col-xl-4 col-md-12">
-                                    <div class="card mat-stat-card">
+                                <!-- Card jumlah guru, siswa dan karyawan start -->
+                                <div class="col-md-4">
+                                    <div class="card text-center order-visitor-card">
                                         <div class="card-block">
-                                            <div class="row align-items-center b-b-default">
-                                                <div class="col-sm-6 b-r-default p-b-20 p-t-20">
-                                                    <div class="text-center row align-items-center">
-                                                        <div class="col-4 p-r-0">
-                                                            <i class="far fa-user text-c-purple f-24"></i>
-                                                        </div>
-                                                        <div class="col-8 p-l-0">
-                                                            <h5>10K</h5>
-                                                            <p class="text-muted m-b-0">Visitors</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6 p-b-20 p-t-20">
-                                                    <div class="text-center row align-items-center">
-                                                        <div class="col-4 p-r-0">
-                                                            <i class="fas fa-volume-down text-c-green f-24"></i>
-                                                        </div>
-                                                        <div class="col-8 p-l-0">
-                                                            <h5>100%</h5>
-                                                            <p class="text-muted m-b-0">Volume</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center">
-                                                <div class="col-sm-6 p-b-20 p-t-20 b-r-default">
-                                                    <div class="text-center row align-items-center">
-                                                        <div class="col-4 p-r-0">
-                                                            <i class="far fa-file-alt text-c-red f-24"></i>
-                                                        </div>
-                                                        <div class="col-8 p-l-0">
-                                                            <h5>2000+</h5>
-                                                            <p class="text-muted m-b-0">Files</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6 p-b-20 p-t-20">
-                                                    <div class="text-center row align-items-center">
-                                                        <div class="col-4 p-r-0">
-                                                            <i class="far fa-envelope-open text-c-blue f-24"></i>
-                                                        </div>
-                                                        <div class="col-8 p-l-0">
-                                                            <h5>120</h5>
-                                                            <p class="text-muted m-b-0">Mails</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <h6 class="m-b-0">Jumlah Guru</h6>
+                                            <h4 class="m-t-15 m-b-15"><i class="fa fa-user m-r-15 "></i>7652</h4>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-12">
-                                    <div class="card mat-stat-card">
+                                <div class="col-md-4">
+                                    <div class="card text-center order-visitor-card">
                                         <div class="card-block">
-                                            <div class="row align-items-center b-b-default">
-                                                <div class="col-sm-6 b-r-default p-b-20 p-t-20">
-                                                    <div class="text-center row align-items-center">
-                                                        <div class="col-4 p-r-0">
-                                                            <i class="fas fa-share-alt text-c-purple f-24"></i>
-                                                        </div>
-                                                        <div class="col-8 p-l-0">
-                                                            <h5>1000</h5>
-                                                            <p class="text-muted m-b-0">Share</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6 p-b-20 p-t-20">
-                                                    <div class="text-center row align-items-center">
-                                                        <div class="col-4 p-r-0">
-                                                            <i class="fas fa-sitemap text-c-green f-24"></i>
-                                                        </div>
-                                                        <div class="col-8 p-l-0">
-                                                            <h5>600</h5>
-                                                            <p class="text-muted m-b-0">Network</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row align-items-center">
-                                                <div class="col-sm-6 p-b-20 p-t-20 b-r-default">
-                                                    <div class="text-center row align-items-center">
-                                                        <div class="col-4 p-r-0">
-                                                            <i class="fas fa-signal text-c-red f-24"></i>
-                                                        </div>
-                                                        <div class="col-8 p-l-0">
-                                                            <h5>350</h5>
-                                                            <p class="text-muted m-b-0">Returns</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6 p-b-20 p-t-20">
-                                                    <div class="text-center row align-items-center">
-                                                        <div class="col-4 p-r-0">
-                                                            <i class="fas fa-wifi text-c-blue f-24"></i>
-                                                        </div>
-                                                        <div class="col-8 p-l-0">
-                                                            <h5>100%</h5>
-                                                            <p class="text-muted m-b-0">Connections</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <h6 class="m-b-0">Jumlah Siswa</h6>
+                                            <h4 class="m-t-15 m-b-15"><i class="fa fa-user m-r-15 "></i>7652</h4>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-4 col-md-12">
-                                    <div class="text-white card mat-clr-stat-card green ">
+                                <div class="col-md-4">
+                                    <div class="card text-center order-visitor-card">
                                         <div class="card-block">
-                                            <div class="row">
-                                                <div class="text-center col-3 bg-c-green">
-                                                    <i class="fas fa-star mat-icon f-24"></i>
-                                                </div>
-                                                <div class="col-9 cst-cont">
-                                                    <h5>4000+</h5>
-                                                    <p class="m-b-0">Ratings Received</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="text-white card mat-clr-stat-card blue">
-                                        <div class="card-block">
-                                            <div class="row">
-                                                <div class="text-center col-3 bg-c-blue">
-                                                    <i class="fas fa-trophy mat-icon f-24"></i>
-                                                </div>
-                                                <div class="col-9 cst-cont">
-                                                    <h5>17</h5>
-                                                    <p class="m-b-0">Achievements</p>
-                                                </div>
-                                            </div>
+                                            <h6 class="m-b-0">Jumlah Karyawan</h6>
+                                            <h4 class="m-t-15 m-b-15"><i class="fa fa-user m-r-15 "></i>7652</h4>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Material statustic card end -->
-                                <!-- order-visitor start -->
-
-
-                                <!-- order-visitor end -->
-
-
-
-                                <!-- Project statustic start -->
-                                <div class="col-xl-12">
-                                    <div class="card proj-progress-card">
-                                        <div class="card-block">
-                                            <div class="row">
-                                                <div class="col-xl-3 col-md-6">
-                                                    <h6>Published Project</h6>
-                                                    <h5 class="m-b-30 f-w-700">532<span class="text-c-green m-l-10">+1.69%</span></h5>
-                                                    <div class="progress">
-                                                        <div class="progress-bar bg-c-red" style="width:25%"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-3 col-md-6">
-                                                    <h6>Completed Task</h6>
-                                                    <h5 class="m-b-30 f-w-700">4,569<span class="text-c-red m-l-10">-0.5%</span></h5>
-                                                    <div class="progress">
-                                                        <div class="progress-bar bg-c-blue" style="width:65%"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-3 col-md-6">
-                                                    <h6>Successfull Task</h6>
-                                                    <h5 class="m-b-30 f-w-700">89%<span class="text-c-green m-l-10">+0.99%</span></h5>
-                                                    <div class="progress">
-                                                        <div class="progress-bar bg-c-green" style="width:85%"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-3 col-md-6">
-                                                    <h6>Ongoing Project</h6>
-                                                    <h5 class="m-b-30 f-w-700">365<span class="text-c-green m-l-10">+0.35%</span></h5>
-                                                    <div class="progress">
-                                                        <div class="progress-bar bg-c-yellow" style="width:45%"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                <!-- Card jumlah guru, siswa dan karyawan end -->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <!-- LINE CHART Guru dan Karyawan start --> 
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>Data Presensi Guru dan Karyawan</h5>
+                                        </div>
+                                        <div class="card-body">
+                                              <canvas id="presensiGuruKaryawan"></canvas>
                                         </div>
                                     </div>
+                                    <!-- LINE CHART Guru dan Karyawan Ends -->
+                                    <!-- LINE CHART Siswa start --> 
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>Data Presensi Guru dan Karyawan</h5>
+                                        </div>
+                                        <div class="card-body">
+                                              <canvas id="presensiSiswa"></canvas>
+                                        </div>
+                                    </div>
+                                    <!-- LINE CHART Siswa Ends -->
                                 </div>
-                                <!-- Project statustic end -->
+                                <div class="col-md-2"> 
+                                </div>
+                                </div>
                             </div>
+                            
                         </div>
                         <!-- Page-body end -->
                     </div>
@@ -227,4 +100,61 @@
         </div>
     </div>
 </div>
+<script defer>
+const ctx = document.getElementById('presensiGuruKaryawan').getContext('2d');
+const labels = ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu']
+const data = {
+  labels: labels,
+  datasets: [{
+    label: 'My First Dataset',
+    data: [65, 59, 80, 81, 56, 55, 40],
+    fill: false,
+    borderColor: 'rgb(75, 192, 192)',
+    tension: 0.1
+  },{
+    label: 'My Second Dataset',
+    data: [50, 41, 50, 42, 60, 75, 80],
+    fill: false,
+    borderColor: 'rgb(50, 50, 50)',
+    tension: 0.1
+  }]
+};
+const presensiGuruKaryawanChart = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+    </script>
+
+    <script defer>
+const ctxSiswa = document.getElementById('presensiSiswa').getContext('2d');
+const dataSiswa = {
+  labels: labels,
+  datasets: [{
+    label: 'My First Dataset',
+    data: [65, 59, 80, 81, 56, 55, 40],
+    fill: false,
+    borderColor: 'rgb(75, 192, 192)',
+    tension: 0.1
+  }]
+};
+const presensiSiswa = new Chart(ctxSiswa, {
+    type: 'line',
+    data: dataSiswa,
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+    </script>
+
 @endsection

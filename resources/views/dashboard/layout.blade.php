@@ -18,7 +18,7 @@
     <!-- Required Fremwork -->
     <link rel="stylesheet" type="text/css" href="{{asset('theme')}}/assets/css/bootstrap/css/bootstrap.min.css">
     <!-- waves.css -->
-    <link rel="stylesheet" href="assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="{{asset('theme')}}/assets/pages/waves/css/waves.min.css" type="text/css" media="all">
     <!-- themify icon -->
     <link rel="stylesheet" type="text/css" href="{{asset('theme')}}/assets/icon/themify-icons/themify-icons.css">
     <!-- font-awesome-n -->
@@ -28,6 +28,15 @@
     <link rel="stylesheet" type="text/css" href="{{asset('theme')}}/assets/css/jquery.mCustomScrollbar.css">
     <!-- Style.css -->
     <link rel="stylesheet" type="text/css" href="{{asset('theme')}}/assets/css/style.css">
+    <!-- chart js  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.1/dist/chart.min.js"></script>
+
+    <!-- Calendar widget -->
+
+    <link rel="stylesheet" href="{{asset('theme')}}/assets/powerful-calendar/style.css">
+    <link rel="stylesheet" href="{{asset('theme')}}/assets/powerful-calendar/theme.css">
+
+
 </head>
 
 <body>
@@ -60,6 +69,8 @@
     <script src="{{asset('theme')}}/assets/js/vertical/vertical-layout.min.js "></script>
 
     <script type="text/javascript" src="{{asset('theme')}}/assets/js/script.js "></script>
+    <script src="{{asset('theme')}}/assets/powerful-calendar/calendar.min.js"></script>
+
     <script>
         $('#modal-add').on('show.bs.modal', function(event) {
                     var button = $(event.relatedTarget)
@@ -208,6 +219,50 @@
                 modal.find('.modal-body #pendidikan').val(pendidikan);
                 modal.find('.modal-body #dk').val(dk);
             })    </script>
+
+
+    
+    <script defer>
+    // calendar
+    function selectDate(date) {
+  $('#calendar-wrapper').updateCalendarOptions({
+    date: date
+  });
+  console.log(calendar.getSelectedDate());
+}
+
+var defaultConfig = {
+  weekDayLength: 1,
+  date: '08/05/2021',
+  onClickDate: selectDate,
+  showYearDropdown: true,
+  startOnMonday: true,
+};
+
+var calendar = $('#calendar-wrapper').calendar(defaultConfig);
+console.log(calendar.getSelectedDate());
+</script>
+
+<script>
+    // upload file trigger
+    $('#upFileLogo').click(function(){
+        $("#fileLogo").trigger('click');
+    })
+</script>
+
+<script>
+    $('#foto-preview').click(function(){
+        $("#inputFoto").trigger('click');
+    })
+    function showPreview(event){
+  if(event.target.files.length > 0){
+    var src = URL.createObjectURL(event.target.files[0]);
+    var preview = document.getElementById("foto-preview");
+    preview.src = src;
+    preview.style.display = "block";
+  }
+}
+</script>
 </body>
 
 </html>

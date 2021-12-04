@@ -84,7 +84,7 @@
                     </a>
                     <ul class="show-notification profile-notification">
                         <li class="waves-effect waves-light">
-                            <a href="#!">
+                            <a href="/settings">
                                 <i class="ti-settings"></i> Settings
                             </a>
                         </li>
@@ -108,7 +108,6 @@
                             <form method="POST" action="">
                                 @csrf
                                 <i class="ti-layout-sidebar-left"></i>
-
                             </form>
                         </li>
                     </ul>

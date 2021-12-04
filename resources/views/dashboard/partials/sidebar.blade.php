@@ -5,7 +5,7 @@
             <div class="main-menu-header">
                 <img class="img-80 img-radius" src="{{asset('theme')}}/assets/images/avatar-4.jpg" alt="User-Profile-Image">
                 <div class="user-details">
-                    <span id="more-details">asda<i class="fa fa-caret-down"></i></span>
+                    <span id="more-details">nama admin<i class="fa fa-caret-down"></i></span>
                 </div>
             </div>
             <div class="main-menu-content">
@@ -36,13 +36,38 @@
                     <span class="pcoded-mcaret"></span>
                 </a>
             </li>
-        </ul>
 
 
-
-        <div class="pcoded-navigation-label">Kesiswaan</div>
-        <ul class="pcoded-item pcoded-left-item">
-            <li class="pcoded-hasmenu ">
+            <li class="">
+                <a href="/settings" class="waves-effect waves-dark">
+                    <span class="pcoded-micon"><i class="fa fa-graduation-cap"></i><b>FC</b></span>
+                    <span class="pcoded-mtext">Identitas Sekolah</span>
+                    <span class="pcoded-mcaret"></span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/prsonalData" class="waves-effect waves-dark">
+                    <span class="pcoded-micon"><i class="fa fa-group"></i><b>FC</b></span>
+                    <span class="pcoded-mtext">Prsonal Data</span>
+                    <span class="pcoded-mcaret"></span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/management" class="waves-effect waves-dark">
+                    <span class="pcoded-micon"><i class="fa fa-folder"></i><b>FC</b></span>
+                    <span class="pcoded-mtext">Management</span>
+                    <span class="pcoded-mcaret"></span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/keuangan" class="waves-effect waves-dark">
+                    <span class="pcoded-micon"><i class="fa fa-money"></i><b>FC</b></span>
+                    <span class="pcoded-mtext">Keuangan</span>
+                    <span class="pcoded-mcaret"></span>
+                </a>
+            </li>
+             <!-- every li here -->
+             <li class="pcoded-hasmenu ">
                 <a href="javascript:void(0)" class="waves-effect waves-dark">
                     <span class="pcoded-micon"><i class="ti-id-badge"></i><b>A</b></span>
                     <span class="pcoded-mtext">Kesiswaan</span>
@@ -86,10 +111,6 @@
                     </li>
                 </ul>
             </li>
-        </ul>
-
-        <div class="pcoded-navigation-label">Kepegawaian</div>
-        <ul class="pcoded-item pcoded-left-item">
             <li class="">
                 <a href="{{ url('kepegawaian') }}" class="waves-effect waves-dark">
                     <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
@@ -97,10 +118,6 @@
                     <span class="pcoded-mcaret"></span>
                 </a>
             </li>
-        </ul>
-
-        <div class="pcoded-navigation-label">Keuangan</div>
-        <ul class="pcoded-item pcoded-left-item">
             <li class="pcoded-hasmenu ">
                 <a href="javascript:void(0)" class="waves-effect waves-dark">
                     <span class="pcoded-micon"><i class="ti-id-badge"></i><b>A</b></span>
@@ -159,11 +176,7 @@
                     </li>
                 </ul>
             </li>
-        </ul>
-
-        <div class="pcoded-navigation-label">Extra</div>
-        <ul class="pcoded-item pcoded-left-item">
-            <li class="pcoded-hasmenu ">
+             <li class="pcoded-hasmenu ">
                 <a href="javascript:void(0)" class="waves-effect waves-dark">
                     <span class="pcoded-micon"><i class="ti-id-badge"></i><b>A</b></span>
                     <span class="pcoded-mtext">Extra</span>
@@ -199,17 +212,6 @@
                         </a>
                     </li>
                 </ul>
-            </li>
-        </ul>
-
-        <div class="pcoded-navigation-label">Pengaturan</div>
-        <ul class="pcoded-item pcoded-left-item">
-            <li class="">
-                <a href="#" class="waves-effect waves-dark">
-                    <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
-                    <span class="pcoded-mtext">Pengaturan</span>
-                    <span class="pcoded-mcaret"></span>
-                </a>
             </li>
         </ul>
     </div>
