@@ -47,7 +47,7 @@ Route::get('login', [AuthController::class, 'index']);
 //siswa
 Route::get('/dataSiswa', [SiswaController::class, 'index'])->name('dataSiswa');
 Route::get('/tambahSiswa', [SiswaController::class, 'tambahSiswa']);
-Route::post('tambahDataSiswa', [SiswaController::class, 'tambahDataSiswa'])->name('tambah_data_siswa');
+Route::post('tambahDataSiswa', [SiswaController::class, 'tambahDataSiswa'])->name('tambahDataSiswa');
 
 // ===== lama
 Route::get('siswa_aktif',[KesiswaanController::class , 'index'])->name('siswa_aktif');
